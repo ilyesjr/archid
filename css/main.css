@@ -114,8 +114,11 @@ body {
     font-family: "Georgia";
 }
 
-
-/* Icone et logo */
+section
+{
+  width: 90%;
+  margin: auto;
+}
 
 .menubarre {
     width: 8%;
@@ -133,9 +136,6 @@ body {
     height: 8%;
     margin-top: 20px;
 }
-
-
-/* ---------------- Fin du header ---------- */
 
 .contenu_principal {
     width: 90%;
@@ -283,16 +283,16 @@ footer figure {
 }
 
 h2 {
-    font-size: 1.90em;
+    font-size: 1.7rem;
     font-family: serif;
-    color: black;
+    color: #B35860;
     margin-left: 0%;
 }
 
-h2:hover {
-    color: #44C2AC;
+#monpetitpanier {
+    color: #B35860;
+    font-size: 1.7rem;
 }
-
 aside {
     display: none;
 }
